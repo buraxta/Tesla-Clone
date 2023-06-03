@@ -27,5 +27,25 @@
         leftBtnText: "Custom Order",
         rightBtnText: "Existing inventory"
     },
+    {
+        title:"Lowest Cost Solar Panels in America",
+        description:"Money-back guarantee",
+        backgroundImg:"solar-panel.jpg",
+        leftBtnText: "Order now",
+        rightBtnText: "Learn more"
+    },
+    {
+        title:"Solar for New Roofs",
+        description:"Solar Roof Costs Less Than a New Roof",
+        backgroundImg:"solar-roof.jpg",
+        leftBtnText: "Order now",
+        rightBtnText: "Learn more"
+    },
+    {
+        title:"Accessories",
+        description:"",
+        backgroundImg:"accessories.jpg",
+        leftBtnText: "Shop no",
+    },
 ]
 export default carData;
