@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Fade from "react-reveal/Fade";
 
 const Section = ({
   title,
@@ -11,14 +10,11 @@ const Section = ({
 }) => {
   return (
     <Wrap bgImage={backgroundImg}>
-      <Fade bottom>
         <ItemText>
           <h1>{title}</h1>
           <p>{description}</p>
           {console.log(backgroundImg)}
         </ItemText>
-      </Fade>
-      <Fade bottom>
         <Buttons>
           <ButtonGroup>
             <LeftButton>{leftBtnText}</LeftButton>
@@ -26,7 +22,6 @@ const Section = ({
           </ButtonGroup>
           <DownArrow src="/images/down-arrow.svg" />
         </Buttons>
-      </Fade>
     </Wrap>
   );
 };
